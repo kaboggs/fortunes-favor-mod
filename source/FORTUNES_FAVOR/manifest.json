@@ -1,0 +1,24 @@
+{
+  "id": "FORTUNES_FAVOR",
+  "name": "Fortune's Favor",
+  "version": "0.3.1",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GAMEPLAY",
+  "game_version": "0.0.0-dev || >=0.1.37 <2.0.0",
+  "priority": 95,
+  "dependencies": [],
+  "optional_dependencies": [
+    "DRAMATIC_SHAPE"
+  ],
+  "conflicts": [],
+  "permissions": [
+    "engine_internals"
+  ],
+  "affects_link": false,
+  "experimental": true,
+  "description": "A save-file luck stat, tunable up or down, wired into the Game Corner slot machine, the shiny rate, wild encounters, the fishing rods and a new LOTTO TICKET sold at every Poke Mart. Higher luck leans wild picks toward species you are missing -- always within each map's or rod's own list, never adding outsiders. At MISSINGNO it counts your whole collection, extended storage included, and steps its forced shiny aside once a species is finished so you can fill the normals. The default tier NORMAL is vanilla exactly; REALISTIC is deliberately worse. Tickets pay money or RARE CANDY.",
+  "license": "MIT",
+  "author": "Kevin Boggs"
+}
